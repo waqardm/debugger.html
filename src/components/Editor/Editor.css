@@ -66,32 +66,12 @@ html[dir="rtl"] .editor-mount {
   --breakpoint-stroke-disabled: var(--blue-60);
 }
 
-.theme-light .cm-s-mozilla .CodeMirror-linenumber {
+.theme-light .cm-s-mozilla .empty-line .CodeMirror-linenumber {
   color: var(--grey-40);
 }
 
-.theme-dark .cm-s-mozilla {
+.theme-dark .cm-s-mozilla .empty-line .CodeMirror-linenumber {
   color: var(--grey-60);
-}
-
-/* dark theme line number and empty line number */
-.theme-dark {
-  .CodeMirror-linenumber {
-    color: var(--grey-40);
-  }
-  .empty-line{
-    color: var(--grey-50);
-  }
-}
-
-/* dark theme line number and empty line number */
-.theme-light {
-  .CodeMirror-linenumber {
-    color: var(--grey-50);
-  }
-  .empty-line{
-    color: var(--grey-40);
-  }
 }
 
 :not(.empty-line):not(.new-breakpoint)
